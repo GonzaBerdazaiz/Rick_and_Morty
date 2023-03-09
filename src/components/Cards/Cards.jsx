@@ -1,5 +1,5 @@
 import {CardsContainer} from "./styledComponents";
-import Card from '../Card';
+import Card from '../Card/Card';
 
 export default function Cards(props) {
    const { characters } = props;

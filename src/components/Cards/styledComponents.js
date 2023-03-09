@@ -4,9 +4,8 @@ export const CardsContainer = styled.div`
    display:flex;
    flex-direction: row;
    justify-content: space-between;
-   width: 80%;
+   width: 70%;
    margin: auto;
-   background-color: red;
    padding: 1em;
    border-radius: 15px;
 `;

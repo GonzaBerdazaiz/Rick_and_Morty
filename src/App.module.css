@@ -1,0 +1,21 @@
+.App{
+    text-align: center;
+    background-color: #DFE5E5;
+    padding-top: 1%;
+    padding-bottom:13.1%;
+    display: flex;
+    flex-direction:column;
+    background-image:url(components/assets.img/Rick_y_Morty.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;   
+}
+
+.NavBar{
+    background-color: #A39B90;
+    opacity: 0.3;
+    padding: 1em;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1em;
+}
