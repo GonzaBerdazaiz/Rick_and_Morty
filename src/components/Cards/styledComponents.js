@@ -6,6 +6,6 @@ export const CardsContainer = styled.div`
    justify-content: space-between;
    width: 70%;
    margin: auto;
-   padding: 1em;
+   padding: 0.5em;
    border-radius: 15px;
 `;

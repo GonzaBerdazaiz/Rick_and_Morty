@@ -2,10 +2,10 @@
     text-align: center;
     background-color: #DFE5E5;
     padding-top: 1%;
-    padding-bottom:13.1%;
+    padding-bottom:24.2%;
     display: flex;
     flex-direction:column;
-    background-image:url(components/assets.img/Rick_y_Morty.png);
+    background-image: url(components/assets.img/Rick_y_Morty.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:fixed;   

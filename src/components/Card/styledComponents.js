@@ -1,46 +1,58 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-   background-color: #EEF1F1;
-   opacity: 0.9;
-   width: fit-content;
-   padding: 0.5em;
-   padding-top: 0%;
-   border-radius: 2px;
    display: flex;
    flex-direction: column;
-   box-shadow: 4px 6px 12px 5px rgb(31,217,242);
+   opacity: 0.9;
+   width: fit-content;
+   border-radius: 2px;
    position: relative;
-   &:hover{
-    scale: 1.05;
+   &: hover {
+    scale: 1.15;
    }
 `;
 
-export const Tarjetas = styled.h2`
-   border-radius: 10px;
+export const Tarjetas = styled.h2`  
+   color: black;
+   text-shadow: 0px 2px 7px  rgb(31,217,242);
+   display: flex;
+   width: fit-content;
+   padding:0.5em;
+   position: absolute;
+   top: 60%;
+`;
+
+export const Tarjetas2 = styled.h2`
+//    position: absolute;
+   background-color: white;
+   margin: auto;
+   margin-top: 0.5em;
+   width: fit-content;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+   border-radius: 20px;
    color: #030642;
-   padding; 1em;
-   display:flex;
-   flex-direction: column;
-   justify-content: space-between;
+   display: flex;
+//    top: 100%;
 `;
 
 export const Boton = styled.button`
-   border: 0.1px solid black;
+   border: 0px;
    scale: 2;
    background-color: transparent;
-   color: red;
+   color: black;
    width: fit-content; 
    heigth: fit-content;
    display: flex;
    flex-direction: column;
    position: relative;
    top: 9.5px;
-   left: 46%;
+   left:90%;
    &:hover {
-    color: black;
-    border: 0.1px solid red;
-    scale: 3;
-    background-color: yellow;   
+    color: red;
+    font-weight: bold;
+    border: 0px;
+    scale: 4;
+    background-color: transparent;   
    }
 `;

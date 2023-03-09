@@ -1,4 +1,4 @@
-import {Container, Boton, Tarjetas} from "./styledComponents";
+import {Container, Boton, Tarjetas, Tarjetas2} from "./styledComponents";
 
 export default function Card(props) {
    return (
@@ -6,8 +6,8 @@ export default function Card(props) {
          <Boton onClick={props.onClose}>X</Boton>
          <img src={props.image} alt="" />
          <Tarjetas>{props.name}</Tarjetas>
-         <Tarjetas>{props.species}</Tarjetas>
-         <Tarjetas>{props.gender}</Tarjetas>  
+         <Tarjetas2>{props.species}</Tarjetas2>
+         <Tarjetas2>{props.gender}</Tarjetas2> 
       </Container>
    );
 }
