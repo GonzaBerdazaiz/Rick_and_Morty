@@ -1,6 +1,5 @@
 import {Container, Boton, Tarjetas} from "./styledComponents";
 
-
 export default function Card(props) {
    return (
       <Container>

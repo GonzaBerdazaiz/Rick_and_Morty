@@ -26,22 +26,21 @@ export const Tarjetas = styled.h2`
 `;
 
 export const Boton = styled.button`
-   border: 0px;
-   scale: 1.2;
-   background-color: #030642;
-   color: white;
+   border: 0.1px solid black;
+   scale: 2;
+   background-color: transparent;
+   color: red;
    width: fit-content; 
    heigth: fit-content;
    display: flex;
    flex-direction: column;
-   border-radius: 50%;
    position: relative;
-   top: 13px;
-   left: -5px;
+   top: 9.5px;
+   left: 46%;
    &:hover {
-    color: red;
-    scale: 1.5;
-    background-color: #06E7E4; 
-    border: 100px;   
+    color: black;
+    border: 0.1px solid red;
+    scale: 3;
+    background-color: yellow;   
    }
 `;
