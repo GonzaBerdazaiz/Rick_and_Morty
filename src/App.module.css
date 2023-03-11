@@ -15,11 +15,7 @@
 
 .NavBar{
     padding: 2em;
-    background: radial-gradient(ellipse farthest-corner at center center, #fefbfb 0%, transparent 20%);
-    background: -webkit-radial-gradient(ellipse farthest-corner at center center, #e11818 0%, #ffffff 20%);
-    background: -moz-radial-gradient(ellipse farthest-corner at center center, #e11818 0%, #ffffff 20%);
     display: flex;
-    justify-content:space-around;
-    margin-bottom: 1em;
+    justify-content: space-around;
     opacity: 0.9;
 }

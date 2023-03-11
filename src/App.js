@@ -7,15 +7,11 @@ function App () {
   return (
     <div className={style.App} >
       <div className={style.NavBar} >
-        <SearchBar
-          onSearch={(characterID) => window.alert(characterID)}
-        />
+        <SearchBar onSearch={(characterID) => window.alert(characterID)} />
       </div>
       <hr></hr>
       <div>
-        <Cards
-          characters={characters}
-        />
+        <Cards characters={characters} />
       </div>
     </div>
   )

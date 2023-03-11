@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Bar = styled.div`
-   width: 20em;
-   display:flex;
-   justify-content: end;
+   width: fit-content;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
 `;
 
 export const Input = styled.div`
@@ -13,6 +14,7 @@ export const Input = styled.div`
    width: 10em;
    height: 2.34em;
    box-shadow: 0px 4px 12px 5px rgb(31,217,242);
+   cursor: pointer;
 `;
 
 export const Boton = styled.div`
@@ -25,4 +27,5 @@ export const Boton = styled.div`
    display: flex;
    justify-content: center;   
    box-shadow: 0px 4px 12px 5px rgb(31,217,242);
+   cursor: pointer;
 `;
