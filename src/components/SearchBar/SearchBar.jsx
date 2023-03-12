@@ -1,10 +1,18 @@
-import {Bar, Input, Boton} from "./styledComponents";
+import {useState} from 'react';
+import style from "./Search.module.css"
 
-export default function SearchBar(onSearch) {
+export default function SearchBar({onSearch}) {
+   
+   const [id,setId] = useState("");
+
+   const handleChange = (event) => {
+      setId(event.target.value);
+   };
+
    return (
-      <Bar>
-         <Input type='search' />
-         <Boton onClick={(id)=>{onSearch(id)}}>Agregar</Boton>
-      </Bar>
+      <div className={style.Barra}>
+         <input type='search' className={style.Busqueda} onChange={handleChange}> </input>
+         <button className={style.Boton} onClick={() => onSearch(id)}> Agregar </button>
+      </div>
    );
 }

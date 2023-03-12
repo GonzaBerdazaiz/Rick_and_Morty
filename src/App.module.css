@@ -12,10 +12,3 @@
     background-repeat: no-repeat;
     background-attachment: scroll;   
 }
-
-.NavBar{
-    padding: 2em;
-    display: flex;
-    justify-content: space-around;
-    opacity: 0.9;
-}
